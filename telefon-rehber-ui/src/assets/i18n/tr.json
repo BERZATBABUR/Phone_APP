@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Telefon Rehberi",
+    "subtitle": "Kişi ekle, düzenle, sil ve ara. Telefonda numaraya tıklayarak arayabilirsiniz."
+  },
+  "list": {
+    "title": "Kişi Listesi",
+    "searchPlaceholder": "İsim, telefon veya e‑posta ara...",
+    "loading": "Kişiler yükleniyor...",
+    "empty": "Henüz kayıtlı kişi yok veya aradığınız kriterlere uygun kişi bulunamadı.",
+    "colName": "Ad Soyad",
+    "colPhone": "Telefon",
+    "colEmail": "E‑posta",
+    "colAddress": "Adres",
+    "colActions": "İşlemler",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "call": "Ara"
+  },
+  "form": {
+    "newContact": "Yeni Kişi",
+    "editContact": "Kişi Düzenle",
+    "newRecord": "Yeni kayıt",
+    "firstName": "Ad",
+    "lastName": "Soyad",
+    "phone": "Telefon",
+    "email": "E‑posta",
+    "address": "Adres",
+    "notes": "Notlar",
+    "required": "zorunludur.",
+    "firstNameRequired": "Ad zorunludur.",
+    "lastNameRequired": "Soyad zorunludur.",
+    "phoneRequired": "Telefon numarası zorunludur.",
+    "emailInvalid": "Geçerli bir e‑posta adresi giriniz.",
+    "save": "Kaydet",
+    "add": "Ekle",
+    "clear": "Temizle"
+  },
+  "messages": {
+    "loadError": "Kişiler yüklenirken bir hata oluştu.",
+    "updateSuccess": "Kişi başarıyla güncellendi.",
+    "updateError": "Kişi güncellenirken bir hata oluştu.",
+    "addSuccess": "Kişi başarıyla eklendi.",
+    "addError": "Kişi eklenirken bir hata oluştu.",
+    "deleteSuccess": "Kişi başarıyla silindi.",
+    "deleteError": "Kişi silinirken bir hata oluştu.",
+    "deleteConfirm": "{{name}} kişisini silmek istediğinize emin misiniz?"
+  },
+  "lang": {
+    "tr": "Türkçe",
+    "en": "English"
+  }
+}

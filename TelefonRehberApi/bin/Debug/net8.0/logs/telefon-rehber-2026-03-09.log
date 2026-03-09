@@ -1,0 +1,380 @@
+2026-03-09 12:06:44.5170|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-03-09 12:06:44.5748|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-09 12:06:44.5791|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-03-09 12:06:44.5804|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-09 12:06:44.5987|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-09 12:06:44.6181|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2026-03-09 12:06:44.6802|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/home/berzat-babur/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 12:06:44.7312|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5010
+2026-03-09 12:06:44.7322|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-03-09 12:06:44.7325|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-03-09 12:06:44.7325|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/berzat-babur/Desktop/Telefon_Rehber_Uygulaması/TelefonRehberApi
+2026-03-09 12:06:57.0262|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:06:57.0841|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-03-09 12:06:57.0887|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 62.8377ms
+2026-03-09 12:06:57.0902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:22.1417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:07:22.1456|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 3.8138ms
+2026-03-09 12:07:22.1456|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:22.9652|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:07:22.9690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 3.7953ms
+2026-03-09 12:07:22.9690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:23.7067|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:07:23.7084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 1.6569ms
+2026-03-09 12:07:23.7084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:25.7023|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:07:25.7033|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 0.9402ms
+2026-03-09 12:07:25.7036|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:26.5161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5010/ - - -
+2026-03-09 12:07:26.5171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5010/ - 404 0 - 0.7428ms
+2026-03-09 12:07:26.5171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5010/, Response status code: 404
+2026-03-09 12:07:55.7831|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 12:07:55.7863|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:07:55.8106|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:07:55.8579|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 12:07:56.0356|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 12:07:56.0921|INFO|TelefonRehberApi.Services.ContactService|Returning 4 contacts
+2026-03-09 12:07:56.0990|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 12:07:56.1335|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 318.111ms
+2026-03-09 12:07:56.1335|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:07:56.1390|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 355.7938ms
+2026-03-09 12:10:37.5235|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 DELETE http://localhost:4200/api/contacts/1 - - 0
+2026-03-09 12:10:37.5283|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2026-03-09 12:10:37.5297|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.Delete (TelefonRehberApi)'
+2026-03-09 12:10:37.5441|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Delete", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32, System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:10:37.7596|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-03-09 12:10:37.8689|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Contacts]
+OUTPUT 1
+WHERE [Id] = @p0;
+2026-03-09 12:10:37.8808|INFO|TelefonRehberApi.Services.ContactService|Contact deleted: Id=1, Name=berzat babur
+2026-03-09 12:10:37.8855|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 204
+2026-03-09 12:10:37.8855|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.Delete (TelefonRehberApi) in 341.1909ms
+2026-03-09 12:10:37.8855|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.Delete (TelefonRehberApi)'
+2026-03-09 12:10:37.8866|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 DELETE http://localhost:4200/api/contacts/1 - 204 - - 363.1988ms
+2026-03-09 12:10:37.8930|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 12:10:37.8935|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:10:37.8935|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:10:37.8976|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 12:10:37.9004|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 12:10:37.9004|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 12:10:37.9015|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 12:10:37.9015|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 8.165ms
+2026-03-09 12:10:37.9015|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:10:37.9015|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 9.2124ms
+2026-03-09 12:10:46.8216|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:4200/api/contacts/3 - application/json 125
+2026-03-09 12:10:46.8226|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2026-03-09 12:10:46.8226|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi)'
+2026-03-09 12:10:46.8354|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Update", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, TelefonRehberApi.Models.Contact, System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:10:46.8847|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-03-09 12:10:46.9085|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 500), @p1='?' (DbType = DateTime2), @p2='?' (Size = 200), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (Size = 1000), @p6='?' (Size = 50), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Contacts] SET [Address] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Notes] = @p5, [PhoneNumber] = @p6, [UpdatedAt] = @p7, [UserId] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2026-03-09 12:10:46.9116|INFO|TelefonRehberApi.Services.ContactService|Contact updated: Id=3, Name=ffvf anhqgabnh
+2026-03-09 12:10:46.9116|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 204
+2026-03-09 12:10:46.9116|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi) in 76.4448ms
+2026-03-09 12:10:46.9116|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi)'
+2026-03-09 12:10:46.9125|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:4200/api/contacts/3 - 204 - - 90.8876ms
+2026-03-09 12:10:46.9197|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 12:10:46.9197|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:10:46.9204|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:10:46.9216|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 12:10:46.9234|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 12:10:46.9234|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 12:10:46.9248|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 12:10:46.9260|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.5102ms
+2026-03-09 12:10:46.9264|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:10:46.9264|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 7.2122ms
+2026-03-09 12:11:23.1193|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 PUT http://localhost:4200/api/contacts/3 - application/json 119
+2026-03-09 12:11:23.1196|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2026-03-09 12:11:23.1196|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi)'
+2026-03-09 12:11:23.1196|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Update", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, TelefonRehberApi.Models.Contact, System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:11:23.1235|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+WHERE [c].[Id] = @__p_0
+2026-03-09 12:11:23.1578|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (33ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 500), @p1='?' (DbType = DateTime2), @p2='?' (Size = 200), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (Size = 1000), @p6='?' (Size = 50), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Contacts] SET [Address] = @p0, [CreatedAt] = @p1, [Email] = @p2, [FirstName] = @p3, [LastName] = @p4, [Notes] = @p5, [PhoneNumber] = @p6, [UpdatedAt] = @p7, [UserId] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2026-03-09 12:11:23.1584|INFO|TelefonRehberApi.Services.ContactService|Contact updated: Id=3, Name=ffvf anh
+2026-03-09 12:11:23.1584|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing StatusCodeResult, setting HTTP status code 204
+2026-03-09 12:11:23.1584|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi) in 38.831ms
+2026-03-09 12:11:23.1584|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.Update (TelefonRehberApi)'
+2026-03-09 12:11:23.1594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 PUT http://localhost:4200/api/contacts/3 - 204 - - 40.0793ms
+2026-03-09 12:11:23.1658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 12:11:23.1658|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:11:23.1658|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:11:23.1672|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 12:11:23.1689|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 12:11:23.1697|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 12:11:23.1697|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 12:11:23.1706|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 4.176ms
+2026-03-09 12:11:23.1706|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:11:23.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 5.1938ms
+2026-03-09 12:36:30.1814|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 12:36:30.1814|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:36:30.1814|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 12:36:30.1828|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 12:46:48.5694|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 12:46:48.5694|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 12:46:48.5694|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 12:46:48.5694|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 11350.2458ms
+2026-03-09 12:46:48.5694|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 12:46:48.5694|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 11350.8886ms
+2026-03-09 13:17:42.0420|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-03-09 13:17:42.0794|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-09 13:17:42.0840|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2026-03-09 13:17:42.0853|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2026-03-09 13:17:42.1035|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2026-03-09 13:17:42.1149|INFO|Microsoft.EntityFrameworkCore.Migrations|No migrations were applied. The database is already up to date.
+2026-03-09 13:17:42.1775|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using '/home/berzat-babur/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-03-09 13:17:42.2362|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5010
+2026-03-09 13:17:42.2372|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2026-03-09 13:17:42.2375|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2026-03-09 13:17:42.2375|INFO|Microsoft.Hosting.Lifetime|Content root path: /home/berzat-babur/Desktop/Telefon_Rehber_Uygulaması/TelefonRehberApi
+2026-03-09 13:18:07.8776|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:18:07.9350|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2026-03-09 13:18:07.9360|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:18:07.9531|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:18:07.9772|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:18:08.1355|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:18:08.1884|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:18:08.1960|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:18:08.2384|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 279.3222ms
+2026-03-09 13:18:08.2390|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:18:08.2486|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 371.6565ms
+2026-03-09 13:21:40.7083|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:21:40.7125|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:21:40.7125|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:21:40.7748|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:21:40.7823|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:21:40.7852|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:21:40.7864|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:21:40.7875|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 74.2422ms
+2026-03-09 13:21:40.7875|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:21:40.7875|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 79.6331ms
+2026-03-09 13:22:46.5114|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:22:46.5149|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:22:46.5149|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:22:46.5199|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:22:46.5235|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:22:46.5235|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:22:46.5246|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:22:46.5246|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 9.579ms
+2026-03-09 13:22:46.5246|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:22:46.5255|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 14.0405ms
+2026-03-09 13:24:01.4892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:24:01.4897|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:01.4897|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:24:01.4917|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:24:01.4947|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:24:01.4957|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:24:01.4957|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:24:01.4957|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 6.2671ms
+2026-03-09 13:24:01.4957|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:01.4966|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 7.4472ms
+2026-03-09 13:24:24.8593|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:24:24.8607|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:24.8607|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:24:24.8627|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:24:24.8648|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:24:24.8663|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:24:24.8676|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:24:24.8685|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 7.0921ms
+2026-03-09 13:24:24.8685|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:24.8685|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 9.5207ms
+2026-03-09 13:24:35.4153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:24:35.4157|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:35.4157|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:24:35.4170|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:24:35.4207|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:24:35.4207|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:24:35.4216|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:24:35.4216|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.9277ms
+2026-03-09 13:24:35.4216|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:24:35.4216|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 6.8675ms
+2026-03-09 13:26:15.6695|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:26:15.6708|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:26:15.6708|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:26:15.6743|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:26:15.6774|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:26:15.6782|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:26:15.6782|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:26:15.6786|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 6.8878ms
+2026-03-09 13:26:15.6786|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:26:15.6786|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 9.6464ms
+2026-03-09 13:28:12.6602|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:28:12.6609|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:28:12.6609|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:28:12.6637|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:28:12.6655|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:28:12.6666|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:28:12.6666|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:28:12.6676|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.658ms
+2026-03-09 13:28:12.6676|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:28:12.6676|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 7.6840ms
+2026-03-09 13:28:21.7773|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:28:21.7782|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:28:21.7782|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:28:21.7796|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:28:21.7824|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:28:21.7831|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:28:21.7831|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:28:21.7836|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.1773ms
+2026-03-09 13:28:21.7836|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:28:21.7836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 6.6146ms
+2026-03-09 13:48:58.5655|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:48:58.5655|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:48:58.5655|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:48:58.5694|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:48:58.7287|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:48:58.7295|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:48:58.7295|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:48:58.7308|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 164.4923ms
+2026-03-09 13:48:58.7308|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:48:58.7316|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 165.9416ms
+2026-03-09 13:49:07.5369|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:49:07.5376|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:49:07.5376|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:49:07.5402|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:49:07.5428|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:49:07.5437|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:49:07.5437|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:49:07.5437|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 6.3761ms
+2026-03-09 13:49:07.5447|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:49:07.5459|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 8.8575ms
+2026-03-09 13:53:51.8508|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:53:51.8508|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:53:51.8508|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:53:51.8530|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:53:51.8567|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:53:51.8580|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:53:51.8580|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:53:51.8587|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 7.3106ms
+2026-03-09 13:53:51.8587|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:53:51.8587|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 8.4513ms
+2026-03-09 13:54:06.1462|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:54:06.1466|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:06.1466|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:54:06.1491|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:54:06.1508|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:54:06.1508|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:54:06.1517|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:54:06.1517|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.3632ms
+2026-03-09 13:54:06.1517|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:06.1526|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 6.3270ms
+2026-03-09 13:54:07.7417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:54:07.7425|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:07.7425|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:54:07.7438|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:54:07.7460|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:54:07.7467|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:54:07.7467|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:54:07.7467|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 4.3369ms
+2026-03-09 13:54:07.7467|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:07.7475|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 5.6332ms
+2026-03-09 13:54:09.5085|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:54:09.5085|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:09.5095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:54:09.5113|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:54:09.5138|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:54:09.5138|INFO|TelefonRehberApi.Services.ContactService|Returning 3 contacts
+2026-03-09 13:54:09.5146|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:54:09.5155|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 5.8468ms
+2026-03-09 13:54:09.5155|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:09.5155|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 7.5404ms
+2026-03-09 13:54:58.9111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:4200/api/contacts - application/json 137
+2026-03-09 13:54:58.9126|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2026-03-09 13:54:58.9126|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.Create (TelefonRehberApi)'
+2026-03-09 13:54:58.9218|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Create", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TelefonRehberApi.Models.Contact]] Create(TelefonRehberApi.Models.Contact, System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:54:59.0598|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 500), @p1='?' (DbType = DateTime2), @p2='?' (Size = 200), @p3='?' (Size = 100), @p4='?' (Size = 100), @p5='?' (Size = 1000), @p6='?' (Size = 50), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Contacts] ([Address], [CreatedAt], [Email], [FirstName], [LastName], [Notes], [PhoneNumber], [UpdatedAt], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2026-03-09 13:54:59.0826|INFO|TelefonRehberApi.Services.ContactService|Contact created: Id=2002, Name=berzat  babur
+2026-03-09 13:54:59.0826|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing CreatedAtActionResult, writing value of type 'TelefonRehberApi.Models.Contact'.
+2026-03-09 13:54:59.0957|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.Create (TelefonRehberApi) in 173.7562ms
+2026-03-09 13:54:59.0957|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.Create (TelefonRehberApi)'
+2026-03-09 13:54:59.0957|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:4200/api/contacts - 201 - application/json;+charset=utf-8 185.0806ms
+2026-03-09 13:54:59.1050|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:4200/api/contacts - - -
+2026-03-09 13:54:59.1059|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:59.1059|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Contacts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[TelefonRehberApi.Models.Contact]]] GetAll(System.Threading.CancellationToken) on controller TelefonRehberApi.Controllers.ContactsController (TelefonRehberApi).
+2026-03-09 13:54:59.1074|INFO|TelefonRehberApi.Services.ContactService|Contacts list requested
+2026-03-09 13:54:59.1094|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[CreatedAt], [c].[Email], [c].[FirstName], [c].[LastName], [c].[Notes], [c].[PhoneNumber], [c].[UpdatedAt], [c].[UserId]
+FROM [Contacts] AS [c]
+2026-03-09 13:54:59.1102|INFO|TelefonRehberApi.Services.ContactService|Returning 4 contacts
+2026-03-09 13:54:59.1106|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TelefonRehberApi.Models.Contact, TelefonRehberApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-09 13:54:59.1106|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi) in 4.7938ms
+2026-03-09 13:54:59.1106|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TelefonRehberApi.Controllers.ContactsController.GetAll (TelefonRehberApi)'
+2026-03-09 13:54:59.1106|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:4200/api/contacts - 200 - application/json;+charset=utf-8 6.1840ms

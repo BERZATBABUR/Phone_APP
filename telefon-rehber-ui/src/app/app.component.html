@@ -1,0 +1,125 @@
+<main class="app-shell">
+  <section class="app-header">
+    <div class="header-row">
+      <h1>{{ 'app.title' | translate }}</h1>
+      <div class="lang-switcher">
+        <button type="button" class="btn btn-ghost small" [class.active]="translate.currentLang === 'tr'" (click)="setLanguage('tr')">{{ 'lang.tr' | translate }}</button>
+        <button type="button" class="btn btn-ghost small" [class.active]="translate.currentLang === 'en'" (click)="setLanguage('en')">{{ 'lang.en' | translate }}</button>
+      </div>
+    </div>
+    <p>{{ 'app.subtitle' | translate }}</p>
+    <p class="message success" *ngIf="successMessage">{{ successMessage }}</p>
+  </section>
+
+  <section class="app-content">
+    <div class="left-panel">
+      <header class="panel-header">
+        <h2>{{ 'list.title' | translate }}</h2>
+        <div class="panel-actions">
+          <input
+            type="text"
+            [placeholder]="'list.searchPlaceholder' | translate"
+            [value]="searchTerm"
+            (input)="onSearchTermChange($any($event.target).value)"
+          />
+          <button type="button" class="btn btn-primary" (click)="startCreate()">
+            {{ 'form.newContact' | translate }}
+          </button>
+        </div>
+      </header>
+
+      <div class="grid-wrapper" *ngIf="!isLoading && filteredContacts.length > 0; else emptyOrLoading">
+        <ag-grid-angular
+          class="ag-theme-quartz"
+          [rowData]="filteredContacts"
+          [columnDefs]="columnDefs"
+          [defaultColDef]="defaultColDef"
+          [context]="gridContext"
+          [domLayout]="'normal'"
+          [suppressCellFocus]="true"
+        />
+      </div>
+
+      <ng-template #emptyOrLoading>
+        <div class="empty-state" *ngIf="isLoading">{{ 'list.loading' | translate }}</div>
+        <div class="empty-state" *ngIf="!isLoading && filteredContacts.length === 0">
+          {{ 'list.empty' | translate }}
+        </div>
+      </ng-template>
+    </div>
+
+  </section>
+
+  <div class="modal-backdrop" *ngIf="isFormOpen" (click)="closeForm()">
+    <div class="modal-panel" (click)="$event.stopPropagation()">
+      <header class="panel-header">
+        <div class="panel-title">
+          <h2 *ngIf="!isEditMode">{{ 'form.newContact' | translate }}</h2>
+          <h2 *ngIf="isEditMode">{{ 'form.editContact' | translate }}</h2>
+          <button type="button" class="btn btn-ghost small" (click)="startCreate()" *ngIf="isEditMode">
+            {{ 'form.newRecord' | translate }}
+          </button>
+        </div>
+        <button
+          type="button"
+          class="modal-close"
+          (click)="closeForm()"
+          aria-label="Close form"
+        ></button>
+      </header>
+
+      <form [formGroup]="form" (ngSubmit)="submit()" class="contact-form">
+        <div class="form-row">
+          <label for="firstName">{{ 'form.firstName' | translate }} *</label>
+          <input id="firstName" type="text" formControlName="firstName" />
+          <span class="error" *ngIf="form.get('firstName')?.invalid && form.get('firstName')?.touched">
+            {{ 'form.firstNameRequired' | translate }}
+          </span>
+        </div>
+
+        <div class="form-row">
+          <label for="lastName">{{ 'form.lastName' | translate }} *</label>
+          <input id="lastName" type="text" formControlName="lastName" />
+          <span class="error" *ngIf="form.get('lastName')?.invalid && form.get('lastName')?.touched">
+            {{ 'form.lastNameRequired' | translate }}
+          </span>
+        </div>
+
+        <div class="form-row">
+          <label for="phoneNumber">{{ 'form.phone' | translate }} *</label>
+          <input id="phoneNumber" type="tel" formControlName="phoneNumber" />
+          <span class="error" *ngIf="form.get('phoneNumber')?.invalid && form.get('phoneNumber')?.touched">
+            {{ 'form.phoneRequired' | translate }}
+          </span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">{{ 'form.email' | translate }}</label>
+          <input id="email" type="email" formControlName="email" />
+          <span class="error" *ngIf="form.get('email')?.invalid && form.get('email')?.touched">
+            {{ 'form.emailInvalid' | translate }}
+          </span>
+        </div>
+
+        <div class="form-row">
+          <label for="address">{{ 'form.address' | translate }}</label>
+          <textarea id="address" rows="2" formControlName="address"></textarea>
+        </div>
+
+        <div class="form-row">
+          <label for="notes">{{ 'form.notes' | translate }}</label>
+          <textarea id="notes" rows="3" formControlName="notes"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">
+            {{ isEditMode ? ('form.save' | translate) : ('form.add' | translate) }}
+          </button>
+          <button type="button" class="btn btn-ghost" (click)="resetForm()">{{ 'form.clear' | translate }}</button>
+        </div>
+
+        <p class="error global" *ngIf="errorMessage">{{ errorMessage }}</p>
+      </form>
+    </div>
+  </div>
+</main>

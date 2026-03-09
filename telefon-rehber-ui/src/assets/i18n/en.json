@@ -1,0 +1,53 @@
+{
+  "app": {
+    "title": "Phone Directory",
+    "subtitle": "Add, edit, delete and search contacts. Tap the phone number to call."
+  },
+  "list": {
+    "title": "Contact List",
+    "searchPlaceholder": "Search by name, phone or email...",
+    "loading": "Loading contacts...",
+    "empty": "No contacts yet or no contacts match your search.",
+    "colName": "Name",
+    "colPhone": "Phone",
+    "colEmail": "Email",
+    "colAddress": "Address",
+    "colActions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "call": "Call"
+  },
+  "form": {
+    "newContact": "New Contact",
+    "editContact": "Edit Contact",
+    "newRecord": "New record",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "notes": "Notes",
+    "required": "required.",
+    "firstNameRequired": "First name is required.",
+    "lastNameRequired": "Last name is required.",
+    "phoneRequired": "Phone number is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "save": "Save",
+    "add": "Add",
+    "clear": "Clear"
+  },
+  "messages": {
+    "loadError": "An error occurred while loading contacts.",
+    "updateSuccess": "Contact updated successfully.",
+    "updateError": "An error occurred while updating the contact.",
+    "addSuccess": "Contact added successfully.",
+    "addError": "An error occurred while adding the contact.",
+    "deleteSuccess": "Contact deleted successfully.",
+    "deleteError": "An error occurred while deleting the contact.",
+    "deleteConfirm": "Are you sure you want to delete {{name}}?"
+  },
+  "lang": {
+    "tr": "Türkçe",
+    "en": "English"
+  }
+}
